@@ -26,7 +26,7 @@
 
 #How to compile "communicate.h," "communicate.c" and "safewalk.cc"
 
-[1] g++ -c communicate.c
+**[1]** g++ -c communicate.c
 
 [2] g++ -o safewalk `pkg-config --cflags playerc++` safewalk.cc `pkg-config --libs playerc++` -lnsl communicate.o
 
