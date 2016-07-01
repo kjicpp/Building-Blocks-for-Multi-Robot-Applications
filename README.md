@@ -1,25 +1,17 @@
 # Building-Blocks-for-Multi-Robot-Applications
 
-#Files included in this project:
-
-   argc.h                multi.world
-   communicate.c         README.txt
-   communicate.h         safewalk
-   communicate.o         safewalk.cc
-   multi.cfg             Kenny Iraheta-p2.pdf
-
 #Description:
 
-      The purpose of this project is to create the basic building blocks for  
+   The purpose of this project is to create the basic building blocks for  
    future multi-robot applications. Specifically, to implement the wander & 
    avoid_obstacle behaviors and to test communication among 6 robots via the
    program safewalk.cc.
    
-      For the simulation, 6 robots are setup inside the multi.world & multi.cfg files. 
+   For the simulation, 6 robots are setup inside the multi.world & multi.cfg files. 
    They are equipped with laser sensors and have been assigned ports to enable
    listening and broadcast communication with each other.
    
-      The following scenario has been implemented: Among all 6 robots, there's one
+   The following scenario has been implemented: Among all 6 robots, there's one
    leader robot (assigned port 6665) and 5 follower robots (assigned ports 6666-6670).
    Initially, all robots remain motionless. Once the leader receives a message from
    the operator, the leader sends commands to followers to begin safewalking. The
