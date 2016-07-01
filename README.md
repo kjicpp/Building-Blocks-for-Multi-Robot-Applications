@@ -33,14 +33,20 @@
 #How to run the project:
 
 [1] Place all files inside of "worlds" directory player stage directory
+
 [2] Open a terminal for stage and a terminal for each robot
+
 [3] Run "player multi.cfg" to launch stage simulator on first terminal
+
 [4] Run "./safewalk 6666", "./safewalk 6667", "./safewalk 6668",
     "./safewalk 6669", and "./safewalk 6670" in each terminal
     subsequently after the second terminal
+    
 [5] For the leader robot terminal i.e. the second terminal, run
     "./safewalk 6665"
+    
 [6] You'll then see the "Command?" prompt on screen
+
 [7] Enter "s" and the scenario described above will run sucessfully     
 
 
