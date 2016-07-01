@@ -1,8 +1,6 @@
 # Building-Blocks-for-Multi-Robot-Applications
 
-CS599 p2 - readme.txt
-
-Files included in this project:
+#Files included in this project:
 
    argc.h                multi.world
    communicate.c         README.txt
@@ -10,7 +8,7 @@ Files included in this project:
    communicate.o         safewalk.cc
    multi.cfg             Kenny Iraheta-p2.pdf
 
-Description:
+#Description:
 
       The purpose of this project is to create the basic building blocks for  
    future multi-robot applications. Specifically, to implement the wander & 
