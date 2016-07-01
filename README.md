@@ -47,7 +47,7 @@
     
 6. You'll then see the "Command?" prompt on screen
 
-[7] Enter "s" and the scenario described above will run sucessfully     
+7. Enter "s" and the scenario described above will run sucessfully     
 
 
 
