@@ -1,4 +1,4 @@
-# Building-Blocks-for-Multi-Robot-Applications
+# Building Blocks for Multi-Robot Applications
 
 #Description
 
@@ -24,13 +24,13 @@
    to the followers. All robots then stop and exit their control programs simultaneously.
    
 
-#How to compile "communicate.h," "communicate.c" and "safewalk.cc":
+#How to compile "communicate.h," "communicate.c" and "safewalk.cc"
 
 [1] g++ -c communicate.c
 
 [2] g++ -o safewalk `pkg-config --cflags playerc++` safewalk.cc `pkg-config --libs playerc++` -lnsl communicate.o
 
-#How to run the project:
+#How to run the project
 
 [1] Place all files inside of "worlds" directory player stage directory
 
