@@ -2,8 +2,8 @@
 
 #Description
 
-   The purpose of this project is to create the basic building blocks for  
-   future multi-robot applications. Specifically, to implement the wander & 
+   The purpose of this project is to create the basic building blocks for future 
+   multi-robot applications. Specifically, to implement the wander & 
    avoid_obstacle behaviors and to test communication among 6 robots via the
    program safewalk.cc.
    
