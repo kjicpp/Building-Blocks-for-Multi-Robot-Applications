@@ -1,6 +1,6 @@
 # Building-Blocks-for-Multi-Robot-Applications
 
-#Description:
+#Description
 
    The purpose of this project is to create the basic building blocks for  
    future multi-robot applications. Specifically, to implement the wander & 
